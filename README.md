@@ -14,7 +14,15 @@ You need to setup the database first to run this project through "https://github
 
 ---
 
-2) Setup & Run the Backend (Flask API)
+2) Setup a virtual environment
+------------------------------
+- Create and activate a virtual environment:
+   - Open a new VS Code terminal
+   - Activate: venv\Scripts\activate
+ 
+---
+
+3) Setup & Run the Backend (Flask API)
 --------------------------------------
 Location: '.../FYP WEB PROJECT/backend/'
 
@@ -22,18 +30,15 @@ Location: '.../FYP WEB PROJECT/backend/'
    - Terminal → New Terminal
    - Navigate to backend: cd backend
 
-2. Create and activate a virtual environment:
-   - Activate: venv\Scripts\activate   # Windows
-
-3. Start the backend server:
+2. Start the backend server:
    - flask run: python app.py
 
-4. Verify backend is running:
+3. Verify backend is running:
    - Open "http://127.0.0.1:5000/"
 
 ---
 
-3) Setup & Run the Frontend (React)
+4) Setup & Run the Frontend (React)
 -----------------------------------
 Location: '.../FYP WEB PROJECT/frontend/'
 
@@ -50,7 +55,7 @@ Location: '.../FYP WEB PROJECT/frontend/'
 
 ---
 
-4) Run Order (Summary)
+5) Run Order (Summary)
 ----------------------
 1. Start "XAMPP" → Apache & MySQL.
 2. Open browser at "http://localhost:5173" to use the system.
