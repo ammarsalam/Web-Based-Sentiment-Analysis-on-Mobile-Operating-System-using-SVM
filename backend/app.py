@@ -26,9 +26,9 @@ vectorizer = load('./vectorizer.joblib')
 
 # Initialize PRAW with your Reddit API credentials
 reddit = praw.Reddit(
-    client_id="aJ8-j404dFDqAQWXiENG-g",
-    client_secret="KIosNOlyHRwVoQDzIAnNH4vMSEIpdA",
-    user_agent="API Scraper App"
+    client_id="ENTER_YOUR_CLIENT_ID",
+    client_secret="ENTER_YOUR_CLIENT_SECRET",
+    user_agent="ENTER_YOUR_USER_AGENT"
 )
 
 # Stop words for preprocessing
@@ -723,3 +723,4 @@ def home():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)
+
