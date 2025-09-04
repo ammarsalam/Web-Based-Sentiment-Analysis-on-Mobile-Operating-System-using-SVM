@@ -1,9 +1,11 @@
-# Get started with React Web based Sentiment Analysis
+# Get Started with React Web Based Sentiment Analysis
+
+## Overview of the Project
 This project is a Web Based Sentiment Analysis on Mobile Operating System using SVM. 
 
-You need to setup the database first to run this project through "https://github.com/ammarsalam/Setup-React-App"
 
-# Steps to run
+## Steps to run
+You need to setup the database first to run this project through "https://github.com/ammarsalam/Setup-React-App"
 
 1) Prerequisites
 ----------------
